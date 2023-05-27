@@ -1,0 +1,95 @@
+.header-text {
+    font-size: 5.8vw;
+    margin-left: 33%;
+    margin-bottom: 0%;
+}
+.under-header-text {
+    margin-left: 42%;
+    margin-top: 0%;
+    font-size: 0.8vw;
+    margin-bottom: 0%;
+}
+.header-text-v2 {
+    font-size: 3.5vw;
+    margin-left: 37%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}  
+
+/* HTML секция с инфой */
+.html-section {
+    position: relative;
+    width: 32%;
+    height: 53%;
+    margin-top: 7%;
+    margin-left: 9%;
+    
+    background: #eeeded;
+    border-radius: 36px;
+}
+.html-section h2 {
+    font-size: 2vw;
+    margin-left: 23%;
+    margin-bottom: 3%;
+}
+.html-section p {
+    margin-left: 4%;
+    margin-top: 0%;
+    font-size: 1.2vw;
+}
+.html-section img {
+    margin-left: 17%;
+    width: 65%;
+}
+
+/* CSS секция с инфой */
+.css-section {
+    position: relative;
+    width: 32%;
+    height: 53%;
+    margin-top: -28%;
+    margin-left: 60%;
+    
+    background: #eeeded;
+    border-radius: 36px; 
+}
+.css-section h2 {
+    font-size: 2vw;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+.css-section p {
+    margin-left: 4%;
+    margin-top: 5%;
+    font-size: 1.2vw;
+}
+.css-section img {
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 82%;
+}
+
+/* JS секция с инфой */
+.js-section {
+    position: relative;
+    width: 62%;
+    height: 53%;
+    margin-top: 5%;
+    margin-left: 19%;
+    
+    background: #eeeded;
+    border-radius: 36px;
+}
+.js-section h1 {
+    font-size: 2.8vw;
+    margin-left: 33%;
+}
+.js-section p {
+    margin-left: 3%;
+    margin-top: 0%;
+    font-size: 1.8vw;
+}
+.js-section h4 {
+    margin-left: 3%;
+    font-size: 0.8vw;
+}

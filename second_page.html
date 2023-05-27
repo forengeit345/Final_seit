@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="assets/header_pages_styles.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/second_page_styles.css" type="text/css"/>
+    <script src="calculator.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');  
+    </style>      
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <a href="https://discord.gg/C6H2EZx65V">Наш дискорд</a>
+        <a href="first_page.html">Первая страница</a>
+        <a href="second_page.html">Вторая страница</a>
+        <a href="third_page.html">Третья страница</a>
+        <img class="logo" src="images/GB3.svg">
+      </div>
+    </header>
+    <main>
+      <h1 class="header-text">А теперь подробнее!</h1>
+      <p class="under-text">Мы(я) сделали калькулятор чаевых который вы можете опробовать прямо тут. Я немного изменил его дизайн, чтобы он подходил под оформление сайта.</p>
+      <div class="container">
+        <div class="wrapper">
+            <p>Сумма по счёту</p>
+            <input type="text" id="amount" placeholder="Введите сумму">₽
+            <p>Качество обслуживания</p>
+            <select id="services">
+                <option selected disabled hidden>
+                    Выбрать
+                </option>
+                <option value="0.15">Отличное(15%)</option>
+                <option value="0.10">Хорошее(10%)</option>
+                <option value="0.05">Нормальное(5%)</option>
+                <option value="0.01">Плохое(1%)</option>
+            </select>
+            <p>Количество человек</p>
+            <input type="text" id="persons" placeholder="Введите количество человек">
+            <button id="calculate">Посчитать</button>
+        </div>
+  
+        <div class="tip">
+            <p>Итогове чаевые:</p>
+            <span id="total">0</span>₽
+            <span id="each">Кажется вы где-то допустили ошибку</span>
+        </div>
+    </div>
+    </main>
+   </body>
+</html>
